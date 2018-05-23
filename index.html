@@ -17,7 +17,8 @@
 
 		<style>
 			.section-padding {padding: 110px 0;}
-			.servicetable {width: 80%; margin: 50px auto; background: #FFF; display: table;}
+
+			.servicetable {width: 100%; margin: 50px auto; background: #FFF; display: table;}
 			.mainheadtable {background: #0777bb; font-weight: bold;}
 			.mainheadtable, .topheadtable, .rowtable {min-height: 60px;}
 			.topheadtable {background: #f3f3f3; border-width: 1px 2px 1px 2px; border-color: #aeaeae; border-style: solid; position: relative;}
@@ -44,9 +45,20 @@
 				.col3sub {width:54% !important;}
 			}
 
-			.featurestable {}
-			.headtable {border-width: 1px; min-height: 60px; background-color: #0777bb; color: #fff; text-align: center; padding: 22px; font-weight: bold;}
-			.title {padding-top: 11px;}
+			.featurestable {width:100%; margin: 50px auto; background: #FFF; display: table;}
+			.headtable {background-color: #0777bb; color: #fff; text-align: center; padding: 22px; font-weight: bold;}
+			.headtable, .titlerow, .featurerow {min-height: 60px;}
+			.titlerow {background: #f3f3f3; border-width: 1px 2px 1px 2px; border-color: #aeaeae; border-style: solid; position: relative;}
+			.contentrow {border-width: 0 1px 1px 1px; border-style: solid; border-color: #aeaeae; min-height: 60px; padding: 22px 11px; display: inline-block;}
+			.maintitle {color: #0777bb; font-weight: bold;}
+			.contenttable {position: relative; z-index: 99;}
+			.showmore {cursor: pointer; vertical-align: middle; position: relative; font-size: 14px; color: #4a4a4a; text-align: center; padding-top: 14px;}
+			.icons {font-size: 14px;}
+			.notes {font-size: 12px;}
+			.thetitle {font-size: 20px;}
+			.theicon {border-width: 0 0 0 1px; border-style: solid; border-color: #aeaeae; position: relative; text-align: center; display: inline-block;}
+			.thecontent {font-size: 12px;}
+			.maintitle, .showmore, .thecontent, .theicon {display: inline-block; vertical-align: middle; }
 
 
 		</style>
@@ -57,24 +69,52 @@
 
 				<div class="row">
 					<div class="text-center">
-						<h3>Features List</h3>
+						<h3><b>Features List</b></h3>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="featurestable">
-						
-						<div class="headtable col-md-12">
-							<div class="title col-sm-2">SOLUTION</div>
-							<div class="title col-sm-7">FEATURE</div>
-							<div class="title col-sm-1">SaaS</div> 
-							<div class="col-sm-1">CO-MANAGED</div>
-							<div class="col-sm-1">FULLY MANAGED</div>
-						</div>
+				<h3>&nbsp;</h3>
 
-					</div>
-				</div>
-			</div>
+				<div class="featurestable">
+					
+					<div class="headtable col-xs-12">
+						<div class="col-xs-1">SOLUTION</div>
+						<div class="col-xs-5">FEATURE</div>
+						<div class="col-xs-2">SaaS</div> 
+						<div class="col-xs-2">CO-MANAGED</div>
+						<div class="col-xs-2">FULLY MANAGED</div>
+					</div> <!-- ./headtable -->
+
+					<!-- Digital HCM System -->
+					<div class="contenttable">
+
+						<div class="titlerow col-xs-12">
+							<div class="maintitle col-xs-9">
+								<div class="thetitle">1. DIGITAL HCM SYSTEM</div> 
+								<div class="notes">
+									<b style="color: #0777bb;">Responsibility identification :</b>&nbsp;&nbsp;&nbsp;&nbsp;
+									<b style="color: #47B952;"><i class="fa fa-check-circle-o icons"></i>&nbsp;&nbsp;iTalentPro responsibility</b>&nbsp;&nbsp;&nbsp;&nbsp;
+									<b style="color: #95C125;"><i class="fa fa-check-circle icons"></i>&nbsp;&nbsp;Client responsibility</b>&nbsp;&nbsp;&nbsp;&nbsp;
+									<b style="color: #FEA604;"><i class="fa fa-check-circle icons"></i>&nbsp;&nbsp;Self-serviced by system provided by iTalentPro</b> 
+								</div>
+							</div>
+							<div class="showmore col-xs-3">Show more <i class="fa fa-chevron-down"></i></div>
+						</div> <!-- ./titlerow -->
+
+						<div class="contentrow col-xs-12">
+							<div class="featurerow">
+								<div class="thecontent col-xs-6">
+									<i class="fa fa-check"></i> <b>Employee Self Service</b><br><br>Employee is able to view and edit personal or tax information, view/download HR documents and tax forms, check leave balance and apply for leave, manage claims, participate in performance appraisal and enroll for courses of the client’s skill development programs.
+								</div>
+								<div class="theicon col-xs-2"><i class="fa fa-check-circle icon-orange"></i></div>
+								<div class="theicon col-xs-2"><i class="fa fa-check-circle icon-orange"></i></div>
+								<div class="theicon col-xs-2"><i class="fa fa-check-circle icon-orange"></i></div>
+							</div>
+						</div> <!-- ./contentrow -->
+					</div><!-- ./Digital HCM System -->
+
+				</div> <!-- ./featurestable -->
+			</div> <!-- ./container -->
 		</section>
 
 		<section class="section-padding">
@@ -87,7 +127,7 @@
 				<div class="servicetable">
 
 					<div class="mainheadtable">
-						<div class="mainopt1"> Features</div>
+						<div class="mainopt1"> FEATURES</div>
 						<div class="subopt" style="color: #fff !important;"> SaaS</div>
 						<div class="subopt" style="color: #fff !important;"> Co-managed</div>
 						<div class="subopt" style="color: #fff !important;"> Fully Managed</div>

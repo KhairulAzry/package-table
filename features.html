@@ -17,7 +17,7 @@
 
 		<style>
 			.section-padding {padding: 110px 0;}
-			.servicetable {width: 80%; margin: 50px auto; background: #FFF; display: table;}
+			.servicetable {width: 100%; margin: 50px auto; background: #FFF; display: table;}
 			.mainheadtable {background: #0777bb; font-weight: bold;}
 			.mainheadtable, .topheadtable, .rowtable {min-height: 60px;}
 			.topheadtable {background: #f3f3f3; border-width: 1px 2px 1px 2px; border-color: #aeaeae; border-style: solid; position: relative;}
@@ -27,7 +27,7 @@
 			.rowtable { border-width: 1px 2px 1px 2px; border-color: #aeaeae; border-style: solid; }
 			.bottomheadtable.active {display: block;}
 			.mainopt {width: 60%; text-align: left; color: #555; height: 100%; padding: 22px 11px; border-width: 0 2px 0 0; border-color: #aeaeae; border-style: solid;}
-			.mainopt1 {width: 60%; text-align: left; color: #555; height: 100%; padding-top: 22px; padding-bottom: 22px; padding-left: 11px; border-width: 0 2px 0 0; border-color: #aeaeae; border-style: solid; color: #0777bb !important; background: #fff; font-weight: bold;}
+			.mainopt1 {width: 60%; text-align: left; color: #555; height: 100%; padding-top: 22px; padding-bottom: 22px; padding-left: 11px; border-width: 0 2px 0 0; border-color: #aeaeae; border-style: solid; color: #FFF !important; background: #0777bb; font-weight: bold;}
 			.subopt {text-align: center; width: 12.5%; padding: 0 8px; color: #000;}
 			.mainopt, .mainopt1, .subopt, .col3sub {display: inline-block; vertical-align: middle; font-size: 12px;}
 			.col3sub {text-align: center; width: 39%; height: 100%; vertical-align: middle; position: relative; }
@@ -37,16 +37,18 @@
 			.icon-orange {font-size: 28px; color: #FEA604;}
 			.icon-green {font-size: 28px; color: #95C125;}
 			.icon-green0 {font-size: 28px; color: #47B952;}
+			.notes {font-size: 10px;}
 			@media (max-width: 767px;){
 				.servicetable {width:90% !important; margin: 25px auto;}
 				.mainopt, .mainopt1 {max-width: 40% !important;}
 				.subopt {width:18% !important; padding:0 !important;}
 				.col3sub {width:54% !important;}
 			}
+
+
 		</style>
 	</head>
 	<body>
-
 		<section class="section-padding">
 			<div class="container">
 
@@ -57,7 +59,7 @@
 				<div class="servicetable">
 
 					<div class="mainheadtable">
-						<div class="mainopt1"> Features</div>
+						<div class="mainopt1">SOLUTION&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;FEATURES</div>
 						<div class="subopt" style="color: #fff !important;"> SaaS</div>
 						<div class="subopt" style="color: #fff !important;"> Co-managed</div>
 						<div class="subopt" style="color: #fff !important;"> Fully Managed</div>
@@ -67,7 +69,9 @@
 					<div class="subheadtable">
 
 						<div class="topheadtable">
-							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">Digital HCM System</div>
+							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">
+								<div>1. DIGITAL HCM SYSTEM</div>
+							</div>
 							<div class="col3sub showhide1">
 								<span class="data-link">Show more <i class="fa fa-chevron-down"></i></span>
 							</div>
@@ -75,73 +79,73 @@
 
 						<div class="bottomheadtable" id="digitalhcm" style="display: none;" >
 							<div class="rowtable">
-								<div class="mainopt"><b>Employee Self Service</b><br><br>Employee is able to view and edit personal or tax information, view/download HR documents and tax forms, check leave balance and apply for Leave Employee, manage claims, participate in performance appraisal and enroll for courses of the client’s skill development programs.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Employee Self Service</b><br><br>Employee is able to view and edit personal or tax information, view/download HR documents and tax forms, check leave balance and apply for leave, manage claims, participate in performance appraisal and enroll for courses of the client’s skill development programs.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>HR Service Service</b><br><br>HR is able to view and manage employees’ information, set system access authority, Employee on-boarding / off-boarding process management, E-leave / e-claim application management and download, view or configure information for all employees.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>HR Services</b><br><br>HR is able to view and manage employees’ information, set system access authority, employee on-boarding / off-boarding process management, e-leave / e-claim application management and download, view or configure information for all employees.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>HR Business Intelligence Genius (HR BIG)</b><br><br>A powerful analytics and reporting tool that converts real-time data into charts for strategic decision making leading to better business outcomes.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>HR Business Intelligence Genius (hr-BIG)</b><br><br>A powerful analytics and reporting tool that converts real-time data into charts for strategic decision making leading to better business outcomes.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Performance Appraisal</b><br><br>Computerized performance  to evaluate, manage, compare, and consolidate performance based on user-defined Key Performance Indicator (KPI) I criteria with performance reports generation.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Performance Appraisal</b><br><br>Computerized performance appraisal to evaluate, manage, compare, and consolidate performance based on user-defined key performance indicator (KPI) criteria with performance reports generation.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Succession Planning</b><br><br>Prepare employee for the next key role with job analysis recording through user-defined competencies profile used to assess the criteria for future orientation.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Succession Planning</b><br><br>Prepare employee for the next key role with job analysis recording through user-defined competencies profile used to assess the criteria for future orientation.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Skill Development</b><br><br>A learning Content Management System that analyses learning initiatives, designing and develop learning content strategies in order to empower employees of the desired areas of growth.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Skills Development</b><br><br>A learning content management system that analyses learning initiatives, design and develop learning content strategies in order to empower employees of the desired areas of growth.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Workforce Planning</b><br><br>Systematic process of identifying and addressing the gaps between the current workforce status and the future workforce needs.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Workforce Planning</b><br><br>Systematic process of identifying and addressing the gaps between the current workforce status and the future workforce needs.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Digital Hiring</b><br><br>Integrated recruitment management suite that automates the processes such as successive candidate information processing, reports generation and other HR functions.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Digital Hiring</b><br><br>Integrated recruitment management suite that automates the processes such as successive candidate information processing, reports generation and other HR functions.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Digital Document</b><br><br>A convenient way to interactively create and electronically circulate documents. This also includes integrated documents and reports.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Digital Document</b><br><br>A convenient way to interactively create and electronically circulate documents. This also includes integrated documents, e-signature and reports.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Enterprise Payroll</b><br><br>Process Payroll for all employees by configuring amounts for Allowance, Basic salary, Commission, Deduction, Medical, Overtime, Income Tax and etc. with statutory compliance automation for ASEAN.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Enterprise Payroll</b><br><br>Process payroll for all employees by configuring amounts for allowances, basic salary, commission, deduction, overtime pay, personal income tax and etc. with statutory compliance automation for ASEAN.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>360 Feedback</b><br><br>Feedback platform from both client internal parties as well as external parties (customers, vendors & partners) with various set templates of feedback forms from which feedback can be given. The forms can be set based on the reviewer’s profile.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>360 Feedback</b><br><br>Feedback platform from both client’s internal parties as well as external parties (customers, vendors & partners) with various set templates of feedback forms from which feedback can be given. The forms can be set based on the reviewer’s profile.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Report</b><br><br>The system is able to generate report summaries of; Payroll, Allowance, Flexi Benefit, Deduction, Leave, Leave Process, Turnover, Flexi Benefit Process, Statutory Forms for ASEAN, Employee Master Profile, Training, Qualification, Disciplinary, Career Path, Year-To-Date (YTD) Payroll Report, Payslip Generation and Distribution.</div>
+								<div class="mainopt"><i class="fa fa-check"></i> <b>Report</b><br><br>The system is able to generate report summaries of; payroll, allowance, flexi benefit, deduction, leave, leave process, turnover, flexi benefit process, statutory forms for ASEAN, employee master profile, training, qualification, disciplinary, career path, year-to-date (YTD) payroll report, payslip generation and distribution.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-orange"></i></div>
@@ -155,7 +159,7 @@
 					<div class="subheadtable">
 
 						<div class="topheadtable">
-							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">Enterprise Payroll Outsourcing</div>
+							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">2. ENTERPRISE PAYROLL OUTSOURCING</div>
 							<div class="col3sub showhide2">
 								<span class="data-link">Show more <i class="fa fa-chevron-down"></i></span>
 							</div>
@@ -163,136 +167,136 @@
 
 						<div class="bottomheadtable active"id="epo" style="display: none;">
 							<div class="rowtable">
-								<div class="mainopt"><b>Compliance, Lodgement and Payment Services</b></div>
+								<div class="mainopt"><b>COMPLIANCE, LODGEMENT AND PAYMENT SERVICES</b></div>
 								<div class="col3sub">&nbsp;</div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">System updates to local government legislation</div>
+								<div class="mainopt"><i class="fa fa-check"></i> System updates to local government legislation.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Generate payment summaries</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Generate payment summaries.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Lodge payment summaries with local government body</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Lodge payment summaries with local government body.</div>
+								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
-								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Submit required Statutory Documents on behalf of client</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Submit required statutory documents on behalf of client.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
-								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
+								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<!-- New section -->
 							<div class="rowtable">
-								<div class="mainopt"><b>Payroll Processing Services</b></div>
+								<div class="mainopt"><b>PAYROLL PROCESSING SERVICES</b></div>
 								<div class="col3sub">&nbsp;</div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Timesheet input</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Timesheet input.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Data input</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Data input.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Processing of salary according to statutory requirements for local full time, part time and expat employees</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Processing of salary according to statutory requirements for local full time, part time and expatriate employees.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Submit bank files on behalf of client</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Submit bank files for the credit of monthly salary.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Prepare ad hoc statutory claims and other related forms</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Prepare ad hoc statutory claims and other related forms.</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Calculation of gross to net payroll service including superannuation</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Calculation of gross to net payroll service including superannuation</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Payroll register, leave liability and costing reports</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Payroll register, leave liability and costing reports</div>
+								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
+								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
+								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
+							</div> <!-- ./rowtable -->
+							<div class="rowtable">
+								<div class="mainopt"><i class="fa fa-check"></i> General ledger interface file</div>
+								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
+								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
+								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
+							</div> <!-- ./rowtable -->
+							<div class="rowtable">
+								<div class="mainopt"><i class="fa fa-check"></i> Integration between payroll, general ledger and HR data</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">General Ledger Interface file</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Process gross to net salary and applicable statutory contribution</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Integration between payroll, General Ledger and HR data</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Process bonuses or any ad hoc payments</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Process gross to net salary and applicable statutory contribution</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Calculation of salary dues and deductions</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Process bonuses or any ad hoc payments</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Audited data with discrepancy report provided to the client for final approval</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Calculation of salary dues and deductions</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Generate bank transfer files for the credit of monthly salary</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Audited data with discrepancy report provided to the client for final approval</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Calculate full and final settlement for resigned employees</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Generate bank transfer files for the credit of monthly salary</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Generate detailed payroll report/payment summaries for client’s management’s review</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Calculate full and final settlement for resigned employees</div>
-								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
-								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
-								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
-							</div> <!-- ./rowtable -->
-							<div class="rowtable">
-								<div class="mainopt">Generate detailed payroll report/payment summaries for client’s management’s review</div>
-								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
-								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
-								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
-							</div> <!-- ./rowtable -->
-							<div class="rowtable">
-								<div class="mainopt">Publish secure online payslips via iTalentPro portal</div>
+								<div class="mainopt"><i class="fa fa-check"></i> Publish secure online payslips via iTalentPro portal</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
@@ -306,7 +310,7 @@
 					<div class="subheadtable">
 
 						<div class="topheadtable">
-							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">Technology Services</div>
+							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">3. TECHNOLOGY SERVICES</div>
 							<div class="col3sub showhide3">
 								<span class="data-link">Show more <i class="fa fa-chevron-down"></i></span>
 							</div>
@@ -314,25 +318,25 @@
 
 						<div class="bottomheadtable active"id="tecser" style="display: none;">
 							<div class="rowtable">
-								<div class="mainopt">System management and Support</div>
+								<div class="mainopt">System management and support.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Onshore Platform Hosting</div>
+								<div class="mainopt">Cloud platform hosting.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">ISO compliance</div>
+								<div class="mainopt">ISO 27001 compliance for information security management system.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Business Continuity Plan and Disaster Recovery</div>
+								<div class="mainopt">Business continuity plan and disaster recovery.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
@@ -346,7 +350,7 @@
 					<div class="subheadtable">
 
 						<div class="topheadtable">
-							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">Support Services</div>
+							<div class="mainopt" style="font-weight: bold; color: #0777bb !important;">4. SUPPORT SERVICES</div>
 							<div class="col3sub showhide4">
 								<span class="data-link">Show more <i class="fa fa-chevron-down"></i></span>
 							</div>
@@ -354,19 +358,19 @@
 
 						<div class="bottomheadtable active"id="supser" style="display: none;">
 							<div class="rowtable">
-								<div class="mainopt">A regular iTalentPro point of contact to assist your organization with our services</div>
+								<div class="mainopt">A regular iTalentPro point of contact to assist your organization with our services.</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Respond to employee with regards to system technical queries (through phone, email or messaging applications)</div>
+								<div class="mainopt">Respond to employee with regard to system technical queries (through phone, email or messaging applications).</div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
 							</div> <!-- ./rowtable -->
 							<div class="rowtable">
-								<div class="mainopt">Respond to employee related HR & payroll queries (through phone, email or messaging applications)</div>
+								<div class="mainopt">Respond to employee related HR & payroll queries (through phone, email or messaging applications).</div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle icon-green"></i></div>
 								<div class="subopt"><i class="fa fa-check-circle-o icon-green0"></i></div>
@@ -381,9 +385,9 @@
 
 				<div class="service_index">
 					<p style="color: #0777bb;"><b>Responsibility identification</b></p>
-					<p style="color: #47B952;"><i class="fa fa-check-circle-o icon"></i>&nbsp;&nbsp;<b>iTalentPro Responsibility</b></p>
-					<p style="color: #95C125;"><i class="fa fa-check-circle icon"></i>&nbsp;&nbsp;<b>Client Responsibility</b></p>
-					<p style="color: #FEA604;"><i class="fa fa-check-circle icon"></i>&nbsp;&nbsp;<b>Self-Serviced by system provided by iTalentPro</b></p>
+					<p style="color: #47B952;"><i class="fa fa-check-circle-o icon"></i>&nbsp;&nbsp;<b>iTalentPro responsibility</b></p>
+					<p style="color: #95C125;"><i class="fa fa-check-circle icon"></i>&nbsp;&nbsp;<b>Client responsibility</b></p>
+					<p style="color: #FEA604;"><i class="fa fa-check-circle icon"></i>&nbsp;&nbsp;<b>Self-serviced by system provided by iTalentPro</b></p>
 				</div> <!-- ./service_index -->
 
 			</div> <!-- ./container -->
